@@ -24,11 +24,11 @@ en: &DEFAULT_EN
       - title: "File watcher"
         desc: "FIM will produce events on any produced action over your files. This will enhance your environment to the next level of security."
         icon: fas fa-eye #find more at https://fontawesome.com/icons
-      - title: "Fast and Reliable"
+      - title: "Fast and reliable"
         desc: "Our software is developed as open source model. It includes a TDD metodology to produce better software."
         icon: fab fa-github
       - title: "Ingester integrated"
-        desc: "FIM supports native events send to any current indexer like OpenSearch, ElasticSearch and Wazuh-dashboard. Enhance your experience."
+        desc: "FIM supports native events send to any current indexer like OpenSearch, ElasticSearch and Wazuh-indexer. Enhance your experience."
         icon: fas fa-link
 
   portfolio:
