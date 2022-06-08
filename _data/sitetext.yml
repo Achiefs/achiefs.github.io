@@ -28,7 +28,7 @@ en: &DEFAULT_EN
         desc: "Our software is developed as open source model. It includes a TDD metodology to produce better software."
         icon: fab fa-github
       - title: "Ingester integrated"
-        desc: "FIM supports native events send to any current indexer like OpenSearch, ElasticSearch and Wazuh-indexer. Enhance your experience."
+        desc: "FIM supports native events send to any current indexer like OpenSearch, ElasticSearch and Wazuh indexer. Enhance your experience."
         icon: fas fa-link
 
   portfolio:
