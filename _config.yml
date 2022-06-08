@@ -11,7 +11,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-#theme: jekyll-agency
 remote_theme: raviriley/agency-jekyll-theme
 
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -19,7 +18,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 
 title      : File Integrity Monitoring
 email      : support@achiefs.com #this is also the email contact forms will go to
-description: "Achiefs is the creator of FIM. We want to keep your files secure"
+description: "We want to keep your files secure. FIM is the easiest and fastest way to keep secure."
 author     : Achiefs
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg

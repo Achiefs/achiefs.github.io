@@ -2,7 +2,7 @@
 # Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
 #
 # Configuration: Add to _config.yml
-# locale: "en-US"  [YOUR PREFERRED LOCALE]
+# locale: "en-US"
 #
 # How to use:
 # {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
@@ -22,7 +22,7 @@ en: &DEFAULT_EN
     section: services
     list:
       - title: "File watcher"
-        desc: "FIM will produce events on any produced action over your files. This will enhance your environment to the next level of security."
+        desc: "FIM will emit events on any produced action over your files. This will enhance your environment to the next level of security."
         icon: fas fa-eye #find more at https://fontawesome.com/icons
       - title: "Fast and reliable"
         desc: "Our software is developed as open source model. It includes a TDD metodology to produce better software."
@@ -70,7 +70,7 @@ en: &DEFAULT_EN
   clients:
     section: clients
     max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
+    horizontal-scrolling: "yes" #"yes/no"
     list:
       - title: "..."
         url: https://achiefs.github.io/
@@ -222,7 +222,7 @@ es: &DEFAULT_ES
   clients:
     section: clientes
     max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
+    horizontal-scrolling: "yes" #"yes/no"
     list:
       - title: "..."
         url: https://achiefs.github.io/
