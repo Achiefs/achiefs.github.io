@@ -24,12 +24,21 @@ en: &DEFAULT_EN
       - title: "File watcher"
         desc: "FIM will emit events on any produced action over your files. This will enhance your environment to the next level of security."
         icon: fas fa-eye #find more at https://fontawesome.com/icons
-      - title: "Fast and reliable"
-        desc: "Our software is developed as open source model. It includes a TDD metodology to produce better software."
+      - title: "Open Source software"
+        desc: "Our software is developed as complete free open source model. It includes a TDD metodology to produce better software."
         icon: fab fa-github
+      - title: "Fast and reliable"
+        desc: "With rust language at heart of FIM code. It allows us to produce faster, safer and reliable code."
+        icon: fas fa-lock
       - title: "Ingester integrated"
         desc: "FIM supports native events send to any current indexer like OpenSearch, ElasticSearch and Wazuh indexer. Enhance your experience."
         icon: fas fa-link
+      - title: "File integrity checking"
+        desc: "Automated file integrity checksum hash production. FIM will analyze each file change."
+        icon: fas fa-check
+      - title: "Real time alerting"
+        desc: "FIM always works in real time. Any change on your files will be detected at the moment."
+        icon: fas fa-stopwatch
 
   portfolio:
     title: "Portfolio"
@@ -173,15 +182,35 @@ es: &DEFAULT_ES
     text: "Ofrecidos por FIM"
     section: servicios
     list:
+      - title: ""
+        desc: ""
+        icon: fas fa-eye #find more at https://fontawesome.com/icons
+      - title: ""
+        desc: ""
+        icon: fab fa-github
+      - title: ""
+        desc: ""
+        icon: fas fa-link
+        
       - title: "Monitor de ficheros"
         desc: "FIM producirá eventos de cualquier acción producida en tus ficheros. Esto hará que tu entorno pase al siguiente nivel de seguridad."
         icon: fas fa-eye #find more at https://fontawesome.com/icons
-      - title: "Rápido y seguro"
-        desc: "Nuestro software está desarrollaco con un modelo completamente de código libre. También incluye una metodología TDD para producir un producto mejor."
+      - title: "Software de codigo libre"
+        desc: "Nuestro software está desarrollado con un modelo completamente de código libre. También incluye una metodología TDD para producir un producto mejor."
         icon: fab fa-github
+      - title: "Rápido y seguro"
+        desc: "Hecho en rust con amor. Rust nos permite producir código más rápido, más seguro y con mayor calidad."
+        icon: fas fa-lock
       - title: "Integrado nativamente"
         desc: "FIM soporta de forma nativa el envío de eventos a cualquier indexador actual como son OpenSearch, ElasticSearch y Wazuh-dashboard. Mejora tu experiencia."
         icon: fas fa-link
+      - title: "Checkeo de integridad"
+        desc: "Proceso automático de generación de hashes. FIM analizará cada cambio en sus ficheros."
+        icon: fas fa-check
+      - title: "Alertas en tiempo real"
+        desc: "FIM siempre trabaja en tiempo real. Cualquier cambio en tus ficheros será detectado al momento."
+        icon: fas fa-stopwatch
+
 
   portfolio:
     title: "Portafolio"
