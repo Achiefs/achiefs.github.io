@@ -17,6 +17,8 @@ en: &DEFAULT_EN
       section: about
     - title: "Contact"
       section: contact
+    - title: "Join slack"
+      url: https://join.slack.com/t/filemonitor/shared_invite/zt-1au9t0hf4-yOsW6D3pGPqzzYsAJt9Dvg
     - title: "Download"
       url: https://github.com/Achiefs/fim/releases/tag/v0.3.1
 en-US:
@@ -38,6 +40,8 @@ es: &DEFAULT_ES
       section: nosotros
     - title: "Contáctenos"
       section: contacto
+    - title: "Unete a slack"
+      url: https://join.slack.com/t/filemonitor/shared_invite/zt-1au9t0hf4-yOsW6D3pGPqzzYsAJt9Dvg
     - title: "Descargar"
       url: https://github.com/Achiefs/fim/releases/tag/v0.3.1
 es-ES:
