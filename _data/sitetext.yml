@@ -14,7 +14,7 @@ en: &DEFAULT_EN
     title: File Integrity Monitoring in Rust
     text: Watch your files
     button: Download
-    buttonlink: "https://github.com/Achiefs/fim/releases/tag/v0.4.0"
+    buttonlink: "https://github.com/Achiefs/fim/releases"
 
   services:
     title: "Features"
