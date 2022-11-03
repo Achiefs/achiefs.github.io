@@ -20,7 +20,7 @@ en: &DEFAULT_EN
     - title: "Join slack"
       url: https://join.slack.com/t/filemonitor/shared_invite/zt-1au9t0hf4-yOsW6D3pGPqzzYsAJt9Dvg
     - title: "Download"
-      url: https://github.com/Achiefs/fim/releases/tag/v0.3.1
+      url: https://github.com/Achiefs/fim/releases
 en-US:
   <<: *DEFAULT_EN
 en-CA:
