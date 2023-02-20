@@ -133,7 +133,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "You can write us an email to achiefs@support.com. We will be glad to help you."
+    text: "You can write us an email to support@achiefs.com. We will be glad to help you totally free."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
