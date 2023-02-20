@@ -73,7 +73,7 @@ en: &DEFAULT_EN
   about:
     title: "About Us"
     text: "our story"
-    body: "We started as a freelancer guys with a dream to complete. Today we are working hard to spread FIM around the world and secure millions of endpoints."
+    body: "We have a dream to complete. Today we are working hard to provide File Monitoring around the world and secure millions of endpoints."
     section: about
 
   clients:
@@ -245,7 +245,7 @@ es: &DEFAULT_ES
   about:
     title: "Sobre nosotros"
     text: "nuestra historia"
-    body: "Comenzamos como un par de freelancers con un sueño que cumplir. Hoy trabajamos duro para compartir FIM con todo el mundo y asegurar millones de terminales."
+    body: "Tenemos un sueño que cumplir. Hoy día trabajamos duro para proveer nuestro monitor de ficheros con todo el mundo y asegurar millones de equipos."
     section: nosotros
 
   clients:
