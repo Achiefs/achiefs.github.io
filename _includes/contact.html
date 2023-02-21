@@ -8,7 +8,7 @@
       grecaptcha.ready(function() {
         grecaptcha.execute('6LcwQl8kAAAAAIWQsNayhhxfKRBtent_EhxFmwyy', {action: 'submit'}).then(function(token) {
             $.ajax({
-              url: "https://formspree.io/f/{% if site.formspree_form_path %}{{ site.formspree_form_path }}{% else %}{{ site.email }}{% endif %}",
+              url: "https://formspree.io/{% if site.formspree_form_path %}{{ site.formspree_form_path }}{% else %}{{ site.email }}{% endif %}",
               method: "POST",
               dataType: "json",
               data: {
