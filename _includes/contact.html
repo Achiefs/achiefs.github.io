@@ -1,6 +1,7 @@
 <!-- Contact -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="page-section" id="{{ site.data.sitetext[site.locale].contact.section | default: "contact" }}">
+  <script src="https://www.google.com/recaptcha/api.js"></script>
   <script src="https://www.google.com/recaptcha/api.js?render=6LcwQl8kAAAAAIWQsNayhhxfKRBtent_EhxFmwyy"></script>
   <script>
       grecaptcha.ready(function () {
