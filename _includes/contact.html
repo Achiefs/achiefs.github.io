@@ -11,12 +11,15 @@
       });
   </script>
   <script>
-  window.onload = function() {
-    var el = document.getElementById('g-recaptcha-response');
-    if (el) {
-      el.setAttribute('required', 'required');
+    function onSubmit(token) {
+      document.getElementById("contactForm").submit();
     }
-  }
+    window.onload = function() {
+      var el = document.getElementById('g-recaptcha-response');
+      if (el) {
+        el.setAttribute('required', 'required');
+      }
+    }
   </script>
   <div class="container">
     <div class="row">
