@@ -59,7 +59,6 @@
                   placeholder="{{ site.data.sitetext[site.locale].contact.message | default: "Message*" }}"
                   required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.message-validation | default: "Please enter a message." }}"></textarea>
                 <p class="help-block text-danger"></p>
-                <div class="g-recaptcha" data-sitekey="6LcwQl8kAAAAAIWQsNayhhxfKRBtent_EhxFmwyy"></div>
                 <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
               </div>
             </div>
@@ -68,8 +67,7 @@
             <div class="clearfix"></div>
             <div class="col-lg-12 text-center">
               <div id="success"></div>
-              <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase"
-                type="submit">{{ site.data.sitetext[site.locale].contact.submit | default: "Send Message" }}</button>
+              <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase g-recaptcha" data-sitekey="6LcwQl8kAAAAAIWQsNayhhxfKRBtent_EhxFmwyy" data-callback='onSubmit' data-action='submit' type="submit">{{ site.data.sitetext[site.locale].contact.submit | default: "Send Message" }}</button>
             </div>
             <input type="text" name="_gotcha" style="display:none">
             <input type="hidden" name="_next" value="#" />
@@ -122,7 +120,6 @@
                   placeholder="{{ site.data.sitetext.contact.message | default: "Message*" }}"
                   required="required" data-validation-required-message="{{ site.data.sitetext.contact.message-validation | default: "Please enter a message." }}"></textarea>
                 <p class="help-block text-danger"></p>
-                <div class="g-recaptcha" data-sitekey="6LcwQl8kAAAAAIWQsNayhhxfKRBtent_EhxFmwyy"></div>
                 <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
               </div>
             </div>
@@ -131,8 +128,7 @@
             <div class="clearfix"></div>
             <div class="col-lg-12 text-center">
               <div id="success"></div>
-              <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase"
-                type="submit">{{ site.data.sitetext.contact.submit | default: "Send Message" }}</button>
+              <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase g-recaptcha" data-sitekey="6LcwQl8kAAAAAIWQsNayhhxfKRBtent_EhxFmwyy" data-callback='onSubmit' data-action='submit' type="submit">{{ site.data.sitetext.contact.submit | default: "Send Message" }}</button>
             </div>
             <input type="text" name="_gotcha" style="display:none">
             <input type="hidden" name="_next" value="#" />
