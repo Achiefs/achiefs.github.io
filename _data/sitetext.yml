@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: File Integrity Monitoring in Rust
+    title: Rust File Integrity Monitor
     text: Watch your files
     button: Download
     buttonlink: "https://github.com/Achiefs/fim/releases"
@@ -175,7 +175,7 @@ en-AU:
 # -------
 es: &DEFAULT_ES
   header:
-    title: File Integrity Monitoring en Rust
+    title: Monitor de integridad en Rust
     text: Monitoriza tus ficheros
     button: Descargar
     buttonlink: "https://github.com/Achiefs/fim/releases/tag/v0.3.1"
