@@ -22,23 +22,26 @@ en: &DEFAULT_EN
     section: services
     list:
       - title: "File watcher"
-        desc: "FIM will emit events on any produced action over your files. This will enhance your environment to the next level of security."
+        desc: "FIM will emit events on any produced action over your files. It will enhance your environment to the next level of security."
         icon: fas fa-eye #find more at https://fontawesome.com/icons
       - title: "Open Source software"
-        desc: "Our software is developed as complete free open source model. It includes a TDD metodology to produce better software."
+        desc: "Our software is developed as a completely free open-source model. It includes a TDD methodology to produce better software."
         icon: fab fa-github
       - title: "Fast and reliable"
-        desc: "With rust language at heart of FIM code. It allows us to produce faster, safer and reliable code."
+        desc: "With rust language at the heart of FIM code. It allows us to produce faster, safer and more reliable code."
         icon: fas fa-lock
       - title: "Ingester integrated"
-        desc: "FIM supports native events send to any current indexer like OpenSearch, ElasticSearch and Wazuh indexer. Enhance your experience."
+        desc: "FIM supports native events sent to any current indexer like OpenSearch, ElasticSearch and Wazuh indexer. Enhance your experience."
         icon: fas fa-link
       - title: "File integrity checking"
-        desc: "Automated file integrity checksum hash production. FIM will analyze each file change."
+        desc: "Automated file integrity hash production. FIM will analyze each file change."
         icon: fas fa-check
       - title: "Real time alerting"
-        desc: "FIM always works in real time. Any change on your files will be detected at the moment."
+        desc: "FIM works in real time. Any change in your files will trigger at the moment."
         icon: fas fa-stopwatch
+      - title: "Extended event data"
+        desc: "Using Audit Linux daemon. Retrieve who produces an event and which command produces it."
+        icon: fas fa-eye
 
   portfolio:
     title: "Portfolio"
@@ -210,6 +213,9 @@ es: &DEFAULT_ES
       - title: "Alertas en tiempo real"
         desc: "FIM siempre trabaja en tiempo real. Cualquier cambio en tus ficheros será detectado al momento."
         icon: fas fa-stopwatch
+      - title: "Datos de evento ampliados"
+        desc: "Usamos Audit para obtener información adicional sobre los eventos y el comando que los produjo."
+        icon: fas fa-eye
 
 
   portfolio:
@@ -305,7 +311,7 @@ es: &DEFAULT_ES
 
   contact:
     title: "Contáctenos"
-    text: "Puedes escribirnos un email a achiefs@support.com. Estaremos encantados de ayudarte."
+    text: "Puedes escribirnos un email a support@achiefs.com. Estaremos encantados de ayudarte."
     section: contacto
     name: "Nombre*"
     name-validation: "Por favor ingrese su nombre."

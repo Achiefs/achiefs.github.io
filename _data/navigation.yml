@@ -21,6 +21,8 @@ en: &DEFAULT_EN
       url: https://join.slack.com/t/filemonitor/shared_invite/zt-1au9t0hf4-yOsW6D3pGPqzzYsAJt9Dvg
     - title: "Download"
       url: https://github.com/Achiefs/fim/releases
+    - title: "Docs"
+      url: https://documentation.achiefs.com
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -43,7 +45,9 @@ es: &DEFAULT_ES
     - title: "Unete a slack"
       url: https://join.slack.com/t/filemonitor/shared_invite/zt-1au9t0hf4-yOsW6D3pGPqzzYsAJt9Dvg
     - title: "Descargar"
-      url: https://github.com/Achiefs/fim/releases/tag/v0.3.1
+      url: https://github.com/Achiefs/fim/releases
+    - title: "Docs"
+      url: https://documentation.achiefs.com
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
