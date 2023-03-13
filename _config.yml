@@ -21,7 +21,7 @@ email      : support@achiefs.com #this is also the email contact forms will go t
 description: "We want to keep your files secure. FIM is the easiest and fastest way to keep secure."
 author     : Achiefs
   logo:     #optional, defaults to site title
-    path: assets\img\logo_web_border64.png
+    path: assets/img/logo_web_border64.png
     height: 64 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
