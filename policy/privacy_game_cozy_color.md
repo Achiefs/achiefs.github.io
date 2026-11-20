@@ -25,8 +25,8 @@ below.
 The Game saves on your own device, and only there, what it needs so you can carry on
 painting where you left off:
 
-- Your drawings: which ones you have started or finished, the colours you have chosen for
-  each piece and your brush strokes.
+- Your painting: which drawings you have started or finished, the colours you have chosen
+  for each piece and your brush strokes.
 - Your settings: whether free drawing mode is on.
 - If a future version records a donation, the mark that remembers it, so you are never
   asked twice.
