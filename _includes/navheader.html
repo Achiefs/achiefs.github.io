@@ -3,9 +3,9 @@
     <div class="container">
 	  <a class="navbar-brand js-scroll-trigger" href="#page-top">
           {%- if site.logo -%}
-            <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
+            <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path | relative_url }}"/>
           {% elsif site.short_logo -%}
-            <img height="{{ site.short_logo.height | default: 52 }}" src="{{ site.short_logo.path }}"/>
+            <img height="{{ site.short_logo.height | default: 52 }}" src="{{ site.short_logo.path | relative_url }}"/>
             {{ site.title }}
           {%- else -%}
             {{ site.title }}
